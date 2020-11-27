@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #FBBF24;
+    --primary-color: #F1C001;
     --off-white: #F3F4F6;
     --dark-gray: #333333;
 }
@@ -52,7 +52,10 @@ body{
     padding: 0.5rem 1rem;
 }
 .link-primary{
-    font-weight: bold;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:black;
+    font-weight: lighter;
 }
 .link-secondary {
     color: var(--primary-color);
@@ -60,6 +63,11 @@ body{
     border: 1px solid var(--primary-color);
     color: black;
     font-weight: lighter; 
+}
+
+.link-blogs{
+    text-decoration: none;
+    color: #333333;
 }
 .hero {
     padding: 1rem;
