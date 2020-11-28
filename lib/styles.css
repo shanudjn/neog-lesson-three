@@ -53,7 +53,9 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     color: black;
-    font-weight: l; 
+    font-weight: bold; 
+
+
 }
 
 /** look into BEM naming convention for CSS **/

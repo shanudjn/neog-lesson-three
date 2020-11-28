@@ -86,11 +86,24 @@ body{
     padding-top: 1rem;
     color: var(--dark-gray);
 }
-
+blockquote{
+    color: var(--dark-gray);
+    font-style: italic;
+    border-left: 0.15rem solid var(--primary-color);
+    padding-left: 0.5rem;
+}
 .section {
     padding: 2rem;
 }
-
+.blogs h1{
+    color: #F1C001;
+}
+.blog-page .hero-heading{
+    color: #F1C001;
+}
+.blog-page .hero-img{
+    max-width: 400px;
+}
 .ow{
     background-color: var(--off-white);
 }
